@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ background-color: rgb(58, 49, 49);
+
+ font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+}
+#Verhnibanner{
+    margin-left: 34;
+    padding: 25px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#logolevo{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    margin-left: 34;
+    padding: 25px 50px;
+    font-size: 1.5rem;
+}
+#Tekstverh{
+    color: ghostwhite;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 7px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .5s ease;
+}
+#Tekstverh {
+    color: rgb(247, 247, 247);
+  }
+  
+#Tekstverh:hover {
+    color: rgb(57, 57, 255);
+  }
+#blog{
+    color: aliceblue;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 25px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    transition: all .5s ease;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+#blog {
+    color: rgb(247, 247, 247);
+  }
+  
+#blog:hover {
+    color: rgb(57, 57, 255);
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px rgb(7, 92, 161), 0 0 13px #333; /* Параметры теней */
+   }
+#osnova {
+    width: 90%;
+    margin: 0 5%;
+    color: #FFF;
+    display: flex;
+}
+   #osnovaimg {
+    margin-left: 15%;
+}
+#about{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    transition: all .5s ease;
+    margin-left: 45px;
+}
+#mainmain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+    transition: all .5s ease;
+    
+
+}
+#Notmainyet{
+    width: 90%;
+    margin: 0 5%;
+    color: #FFF;
+    display: flex;
+}
+#main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+    transition: all .5s ease;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 25px;
+    border-radius: 1rem;
+    line-height: 1.6;
+    transition: all .5s ease;
+    margin: 0 auto;
+}
+#HTML2{
+    font-weight: 600;
+    text-align: left;
+}
+.Homeprogress{
+    margin-top: 5px;
+    height: 5px;
+    width: 80%;
+    background-color: rgb(15, 9, 9) ;
+}
+#homefillhtml{
+    background-color: #1e75f7;
+    width: 70%;
+    height: 5px;
+}
+#hmskills{
+    width: 90%;
+}
+#PythonLid{
+    font-weight: 600;
+    text-align: left;
+}
+#homefillpython{
+    background-color: #1e75f7;
+    width: 50%;
+    height: 5px;
+}
+#JSLid{
+    font-weight: 600;
+    text-align: left;
+}
+
